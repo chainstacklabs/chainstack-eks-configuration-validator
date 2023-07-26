@@ -46,7 +46,11 @@ If any requirement is not met, the script will display an error message. If all 
 In the script, replace `YOUR_ACCOUNT_ID`, `YOUR_CLUSTER_NAME`, and `YOUR_NODE_GROUP_NAME` with your specific values.
 
 1. Clone the repository
-   git clone
+
+```sh
+git clone https://github.com/chainstacklabs/chainstack-eks-configuration-validator.git
+```
+
 2. Make the script executable by running `chmod + x validation_script.sh`.
 3. Run the script with `./validation_script.sh`.
 
